@@ -21,12 +21,14 @@
 
     </head>
     <body>
-      <nav>
-          <div class="card-panel teal lighten-2" >
+      <nav class="card-panel teal lighten-2">
+          <div class="nav-wrapper" >
           <a href="#" class="brand-logo"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="registro">Registrarse</a></li>
               <li><a href="login">Iniciar sesion</a></li>
+
+
           </ul>
           </div>
       </nav>
