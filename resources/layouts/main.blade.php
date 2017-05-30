@@ -22,7 +22,7 @@
     </head>
     <body>
       <nav>
-          <div class="#004d40 teal darken-4">
+          <div class="nav-wrapper" class="card-panel teal lighten-2" >
           <a href="#" class="brand-logo"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="registro">Registrarse</a></li>
