@@ -1,51 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <title>Parallax Template - Materialize</title>
 
-          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-          <title>Parallax Template - Materialize</title>
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-          <!-- CSS  -->
-          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-          <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-          <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <style type="text/css">
-
-             .hide {
-                  display:none;
-              }
-
-        </style>
 
 
         @yield('head')
 
     </head>
     <body>
-      <nav class="white" role="navigation">
-          <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Logo</a>
-             <ul class="right hide-on-med-and-down">
-               <li><a href="#">Navbar Link</a></li>
-             </ul>
 
-              <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">Navbar Link</a></li>
-              </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-          </div>
-        </nav>
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo">Logo</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Navbar Link</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Navbar Link</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+
+
 
       @yield('content')
 
-      <footer class="page-footer teal">
+
+<footer class="page-footer teal">
    <div class="container">
      <div class="row">
        <div class="col l6 s12">
@@ -82,20 +73,11 @@
  </footer>
 
 
+
        <!--  Scripts-->
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <!--<script src="js.jquery.js"></script>-->
       <script src="js/materialize.js"></script>
       <script src="js/init.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous">
-      </script>
-
-
 
         @yield('scripts')
 
