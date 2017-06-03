@@ -1,0 +1,44 @@
+header {
+
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 5px;
+
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #4db6ac;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	
+
+	padding-top: 50px; /* Relleno superior igual a la altura de la cabecera*/
+}
