@@ -29,11 +29,13 @@
   transition: all 500ms ease;
 }
 
-.social ul li .icon-facebook {background: #3b5998 ;}
-.social ul li .icon-googleplus {background: #d95232 ;}
-.social ul li .icon-mail {background: #666666 ;}
+.social ul li .icon-facebook {background: #3b5998;}
+.social ul li .icon-google-plus {background: #d95232;}
+.social ul li .icon-youtube {background: #e53935;}
+.social ul li .icon-soundcloud {background: #e53935;}
+.social ul li .icon-mail {background: #666666;}
 
 .social ul li a:hover {
-  padding: 10px 30px;
+  padding: 10px 40px;
   background: #000;
 }

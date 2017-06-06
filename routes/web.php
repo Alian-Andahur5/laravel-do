@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+
+Route::get('entrevistas', 'entrevistascontroller@view');
+
+Route::get('galeria', 'galeriacontroller@view');
+
+Route::get('lecciones', 'leccionescontroller@view');
